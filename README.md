@@ -6,7 +6,7 @@ The goal is to understand how fixed policies behave under stochastic transitions
 
 ---
 
-## 📌 **Overview of Tasks**
+## **Overview of Tasks**
 
 ### **Task 1 — Identify the MDP**
 - Explore stochastic transition probabilities for different state–action pairs.
@@ -36,41 +36,9 @@ The goal is to understand how fixed policies behave under stochastic transitions
 
 ---
 
-## 📂 **Project Structure**
 
-```
-Project 2/
-│── rl_lab_2.py                 # Main Python solution file
-│── images/                     # Plots, heatmaps, transitions, animations
-│── README.md                   # This file
-└── ...                         # Additional notebooks or helper files
-```
 
----
-
-## 🔧 **How to Run**
-
-Install required packages:
-
-```bash
-pip install numpy matplotlib
-```
-
-Run the Python script or Jupyter Notebook:
-
-```bash
-python rl_lab_2.py
-```
-
-Or open the notebook in Jupyter:
-
-```bash
-jupyter notebook
-```
-
----
-
-## 🧠 **Key Concepts Demonstrated**
+##  **Key Concepts Demonstrated**
 
 ### **MDP Formulation**
 - 5×5 grid
@@ -96,20 +64,15 @@ jupyter notebook
 
 ---
 
-## 📊 **Example Visualizations**
+##  **Example Visualizations**
 
 | Always Right | Always Down | Optimal Policy |
 |--------------|-------------|----------------|
-| ![](images/V_right.png) | ![](images/V_down.png) | ![](images/V_opt.png) |
+| ![](images/always_go_right_heatmap) | ![](images/always_go_down_heatmap.png) | ![](images/optimal_value_heatmap.png) |
+
 
 ---
 
-## 👩‍💻 **Author**
-Negin  
-Master student · Reinforcement Learning & Machine Learning  
-
----
-
-## ⭐ Notes
-This project was completed as part of the **Reinforcement Learning** course (Term 3).  
+##  Notes
+This project was completed as part of the **Reinforcement Learning** course.  
 It demonstrates understanding of MDPs, dynamic programming, Monte Carlo methods, and optimal control.
