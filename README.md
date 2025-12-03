@@ -68,7 +68,7 @@ The goal is to understand how fixed policies behave under stochastic transitions
 
 | Always Right | Always Down | Optimal Policy |
 |--------------|-------------|----------------|
-| ![](images/always_go_right_heatmap) | ![](images/always_go_down_heatmap.png) | ![](images/optimal_value_heatmap.png) |
+| ![](images/always_go_right_heatmap.png) | ![](images/always_go_down_heatmap.png) | ![](images/optimal_value_heatmap.png) |
 
 
 ---
